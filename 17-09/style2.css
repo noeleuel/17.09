@@ -1,0 +1,47 @@
+/* estilo container principal*/
+
+#container-principal {
+background-color: rgb(73, 96, 106);
+padding: 20px; /* espaço do lado de dentro*/
+height: 500px; /*altura */
+border: 2px solid #1c4157; /*  add borda */
+border-radius: 10px ;  /* defina os cantos como arrendodados*/
+
+
+}
+
+/* estilo para caixas da mesma classe*/
+.caixa-simples {
+background-color: #9fb7c4; 
+color: rgb(0, 0, 0); /*define cor da letra*/
+width: 100px; /*largura*/
+height: 100px;/*altura*/
+text-align: center;/*define o alinhamento do texto*/
+line-height: 100px;
+border-radius: 5px;
+margin: 10px;
+
+
+}
+
+.caixa-diferente {
+
+    background-color: #9fb7c4; 
+    color: rgb(0, 0, 0); /*define cor da letra*/
+    width: 100px; /*largura*/
+    height: 100px;/*altura*/
+    text-align: center;/*define o alinhamento do texto*/
+    line-height: 50x;
+    border-radius: 5px;
+    margin: 10px;
+
+
+
+}
+
+.caixa-diferente:hover {
+
+    background-color: #003b5a; 
+    color: rgb(0, 0, 0); /*define cor da letra*/
+    
+}
